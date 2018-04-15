@@ -1,5 +1,5 @@
 {
-  "name": "A Template API Structure",
+  "name": "node-express-api-template",
   "version": "1.0.0",
   "description": "A Template API Structure that utilizes Express router to modularize API paths",
   "main": "server.js",
@@ -7,7 +7,6 @@
     "lib": "lib"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "request": "^2.85.0",
@@ -17,8 +16,8 @@
     "nodemon": "^1.17.3"
   },
   "scripts": {
-    "start": "node server.js",
-    "dev": "NODE_ENV=development nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -29,10 +28,11 @@
     "node",
     "js",
     "server",
-    "api"
+    "api",
+    "template"
   ],
   "author": "Daniel Schroeder <schrodan@oregonstate.edu>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DSchroederOSU/Node-Express-API-Template/issues"
   },
