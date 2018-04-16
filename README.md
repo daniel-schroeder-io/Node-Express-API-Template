@@ -12,4 +12,4 @@ npm start
 
 Navigate to http://localhost:3000 and there will be a welcome message
 
-Navigate to http://localhost:3000/collection and there will be a message "Received GET request at {http://localhost:3000/collection}"
+Navigate to http://localhost:3000/collection and there will be a message "Received GET request at {path}"
