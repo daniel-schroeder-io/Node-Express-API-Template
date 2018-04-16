@@ -4,9 +4,11 @@ This API should run out of the box:
 
 Clone this repository
 
-```npm install
+```
+npm install
 
-npm start```
+npm start
+```
 
 Navigate to http://localhost:3000 and there will be a welcome message
 
